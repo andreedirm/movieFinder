@@ -1,0 +1,33 @@
+<div id="details" class="container-fluid">
+    <div class="col-md-4">
+        <img src="{{vm.movies.Poster}}">
+    </div>
+    <div class="col-md-8">
+        <h1 id="movieTitle"><b>{{vm.movies.Title}}</b></h1>
+        <p><b>Year: </b>{{vm.movies.Year}}</p>
+        <p><b>Rated: </b>{{vm.movies.Rated}}</p>
+        <p><b>Released: </b>{{vm.movies.Released}}</p>
+        <p><b>Runtime: </b>{{vm.movies.Runtime}}</p>
+        <p><b>Actors: </b>{{vm.movies.Actors}}</p>
+        <p><b>Awards: </b>{{vm.movies.Awards}}</p>
+        <p><b>Country: </b>{{vm.movies.Country}}</p>
+        <p><b>Director: </b>{{vm.movies.Director}}</p>
+        <p><b>Genre: </b>{{vm.movies.Genre}}</p>
+        <p><b>Language: </b>{{vm.movies.Language}}</p>
+        <p><b>Metascore: </b>{{vm.movies.Metascore}}</p>
+        <p><b>Plot: </b>{{vm.movies.Plot}}</p>
+        <p><b>Rated: </b>{{vm.movies.Rated}}</p>
+        <p><b>Released: </b>{{vm.movies.Released}}</p>
+        <p><b>Runtime: </b>{{vm.movies.Runtime}}</p>
+        <p><b>Writer: </b>{{vm.movies.Writer}}</p>
+        <p><b>Year: </b>{{vm.movies.Year}}</p>
+        <p><b>IMDB Rating: </b>{{vm.movies.imdbRating}}</p>
+        <p><b>IMDB Votes: </b>{{vm.movies.imdbVotes}}</p>
+        <br>
+        <div ng-bind-html="vm.trail">
+            
+        </div>
+        <br>
+        <a type="button" class="btn btn-primary btn-lg" ui-sref="main">New Search</a>
+    </div>
+</div>

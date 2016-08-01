@@ -1,0 +1,21 @@
+
+
+.container-fluid {
+    margin: 50px;
+}
+
+#mainBackground {
+	background-color: rgba(0, 0, 0, 0.8);
+	padding: 50px;
+}
+
+
+#details {
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 15px;
+	font-size: 24px;
+}
+
+#movieTitle {
+	font-size: 48px;
+}
